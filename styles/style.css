@@ -65,15 +65,20 @@ svg {
     flex-direction: row;
     justify-content: center;
 }
-
 button {
-    /*Reset button style*/
+    /*Resets button style*/
     padding: 0;
     border: none;
     font: inherit;
     color: inherit;
     background-color: transparent;
-    /*Reset button style*/
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-center {
     background-color:#f8f9fa;
     border: 1px solid #f8f9fa;
     color: #202124;
@@ -124,6 +129,7 @@ button:hover {
 
 #bottom-two-first-half { }
 
+
 #bottom-two-second-half {
     display: flex;
     flex-direction: row;
@@ -144,6 +150,11 @@ button:hover {
 
 .next-text-right {
     margin-right: 27px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
