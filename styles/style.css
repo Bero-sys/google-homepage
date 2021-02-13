@@ -3,12 +3,27 @@ body {
     font-family: arial,sans-serif;
 }
 
+#top {
+    height: 47px;
+}
+
+#center {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 #logo {
 display: block;
 margin: auto;
 padding-top: 10px !important;
-height: 72px;
-width: auto;
+height: 92px;
+width: 272px;
+}
+
+form {
+    margin: 20px auto;
 }
 
 #searchbar-inner {
@@ -21,6 +36,7 @@ width: auto;
 
 
 #searchbar-out {
+
     height: 44px;
     width: 582px;
     background: #fff;
@@ -61,9 +77,11 @@ svg {
 }
 
 #button-div {
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 button {
     /*Resets button style*/
@@ -131,8 +149,6 @@ button:hover {
 
 
 #bottom-two-second-half {
-    display: flex;
-    flex-direction: row;
     justify-content: right;
 }
 
