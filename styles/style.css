@@ -5,6 +5,56 @@ body {
 
 #top {
     height: 47px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top-first-half {
+    font-size: 14px;
+}
+
+#top-second-half {
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif
+}
+
+#sign-up-button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: 1px solid transparent;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+#sign-up-button:hover {
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+#button-svg {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-svg:hover {
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+    border: transparent;
+}
+
+#svg-top {
+    color: #5f6368;
 }
 
 #center {
@@ -86,6 +136,8 @@ svg {
 button {
     /*Resets button style*/
     padding: 0;
+    margin: 0;
+    border: 0;
     border: none;
     font: inherit;
     color: inherit;
@@ -138,18 +190,16 @@ button:hover {
 
 }
 
-.bottom-two-half {
+.half {
     display: flex;
     flex-direction: row;
     width: 50%;
     
 }
 
-#bottom-two-first-half { }
-
-
-#bottom-two-second-half {
+.second-half {
     justify-content: right;
+    align-items: center;
 }
 
 .first-text-left {
